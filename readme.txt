@@ -1,4 +1,4 @@
-=== Republication Tracker Tool ===
+=== Republication Tracker Tool, Modified ===
 Contributors: innlabs
 Donate link: https://inn.org/donate
 Tags: publishers, news
