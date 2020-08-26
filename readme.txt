@@ -37,6 +37,8 @@ In this plugin, the tracking is achieved through an image element included insid
 - Adds the `[republication_modal_button]` shortcode, with optional `label=""` parameter, which opens the Republication modal.  Pull request TKTK for https://github.com/INN/republication-tracker-tool/issues/66, sponsored by [the Center for Public Integrity](https://publicintegrity.org/).
 - Adds static function `Republication_Tracker_Tool_Widget::button_output( $label = '' );` to return the button markup, and `Republication_Tracker_Tool_Widget::maybe_print_modal_content();` to enqueue the modal markup. Pull request TKTK for https://github.com/INN/republication-tracker-tool/issues/66, sponsored by [the Center for Public Integrity](https://publicintegrity.org/).
 - Reduces selector specificity for widget-provided styles on `button.republication-tracker-tool-button`. Pull request TKTK.
+- Adds a new filter, `republication_tracker_tool_byline`, which allows developers to change the byline that is output in the modal and in the sharable text. Pull request TKTK for https://github.com/INN/republication-tracker-tool/issues/46, sponsored by [the Center for Public Integrity](https://publicintegrity.org/).
+- Adds compatibility for Automattic's [Co-Authors Plus](https://wpvip.com/plugins/co-authors-plus/) plugin. Pull request TKTK for https://github.com/INN/republication-tracker-tool/issues/46, sponsored by [the Center for Public Integrity](https://publicintegrity.org/).
 
 Potentially-breaking changes:
 - The property `Republication_Tracker_Tool_Widget->has_instance` is now `Republication_Tracker_Tool->has_instance`.

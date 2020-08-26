@@ -16,6 +16,7 @@ require plugin_dir_path( __FILE__ ).'includes/class-article-settings.php';
 require plugin_dir_path( __FILE__ ).'includes/class-widget.php';
 require plugin_dir_path( __FILE__ ).'includes/class-shortcodes.php';
 require plugin_dir_path( __FILE__ ).'blocks/button.php';
+require plugin_dir_path( __FILE__ ).'includes/compatibility-co-authors-plus.php';
 
 /**
 * Main initiation class.
