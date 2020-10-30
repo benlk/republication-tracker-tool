@@ -39,6 +39,7 @@ In this plugin, the tracking is achieved through an image element included insid
 - Reduces selector specificity for widget-provided styles on `button.republication-tracker-tool-button`. Pull request TKTK.
 - Adds a new filter, `republication_tracker_tool_byline`, which allows developers to change the byline that is output in the modal and in the sharable text. Pull request TKTK for https://github.com/INN/republication-tracker-tool/issues/46, sponsored by [the Center for Public Integrity](https://publicintegrity.org/).
 - Adds compatibility for Automattic's [Co-Authors Plus](https://wpvip.com/plugins/co-authors-plus/) plugin. Pull request TKTK for https://github.com/INN/republication-tracker-tool/issues/46, sponsored by [the Center for Public Integrity](https://publicintegrity.org/).
+- Fixes bug where Republication pixel's referer lookup function could lead to a loop of looking up itself. Pull request TKTK for issues [#80](https://github.com/Automattic/republication-tracker-tool/issues/80) and [#91](https://github.com/Automattic/republication-tracker-tool/issues/91).
 
 Potentially-breaking changes:
 - The property `Republication_Tracker_Tool_Widget->has_instance` is now `Republication_Tracker_Tool->has_instance`.
